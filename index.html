@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKPD Praktik VPS AWS - Fase 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen p-6">
+    <main class="max-w-4xl mx-auto bg-white shadow-md rounded-xl p-8">
+        <header class="border-b pb-4 mb-6">
+            <h1 class="text-2xl font-bold text-blue-600">LKPD Praktik VPS AWS</h1>
+            <p class="text-sm text-slate-500 mt-1">Fase 1: Pengenalan Konsep VPS & Cloud</p>
+        </header>
+
+        <!-- Identitas Siswa -->
+        <section class="mb-6 bg-slate-50 border rounded-lg p-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+            <div>
+                <p><strong class="text-slate-600">Nama:</strong> M. Dzakiir Faisal Hasan</p>
+                <p class="mt-1"><strong class="text-slate-600">Kelas:</strong> XI RPL 2</p>
+            </div>
+            <div>
+                <p><strong class="text-slate-600">Tanggal:</strong> 15 Oktober 2026</p>
+                <p class="mt-1"><strong class="text-slate-600">Instruktur:</strong> Bapak Asep Ulumudin</p>
+            </div>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-lg font-semibold text-slate-700 mb-2">Instruksi:</h2>
+            <p class="text-sm text-slate-600">Jelaskan secara singkat pemahaman Anda mengenai perbedaan layanan berikut dengan mengisi kotak yang tersedia.</p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Shared Hosting -->
+            <div class="border rounded-lg p-4 bg-slate-50">
+                <h3 class="font-bold text-blue-500 mb-2">Shared Hosting</h3>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    Layanan hosting di mana satu server fisik digunakan secara bersama-sama oleh banyak pengguna atau website. Sumber daya seperti CPU, RAM, dan penyimpanan dibagi bersama. Harganya sangat terjangkau dan ramah pemula, namun performa website Anda dapat terpengaruh jika website lain di server yang sama mengalami lonjakan trafik yang tinggi.
+                </p>
+            </div>
+
+            <!-- Dedicated Server -->
+            <div class="border rounded-lg p-4 bg-slate-50">
+                <h3 class="font-bold text-blue-500 mb-2">Dedicated Server</h3>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    Layanan penyewaan satu server fisik secara utuh dan eksklusif untuk satu pengguna tanpa berbagi dengan pihak lain. Seluruh sumber daya server didedikasikan penuh untuk Anda, sehingga menawarkan performa maksimal dan tingkat keamanan tertinggi, tetapi memiliki biaya sewa yang mahal serta memerlukan keahlian teknis khusus untuk pengelolaannya.
+                </p>
+            </div>
+
+            <!-- Amazon Lightsail -->
+            <div class="border rounded-lg p-4 bg-slate-50">
+                <h3 class="font-bold text-blue-500 mb-2">Amazon Lightsail</h3>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    Layanan <em>Virtual Private Server</em> (VPS) dari AWS yang dirancang khusus agar mudah digunakan oleh pemula, mahasiswa, maupun pengembang untuk proyek skala kecil hingga menengah. Menawarkan paket harga tetap (<em>flat-rate</em>) yang prediktif serta kemudahan <em>deployment</em> instan untuk berbagai platform populer (seperti WordPress, Linux, atau Node.js).
+                </p>
+            </div>
+
+            <!-- Amazon EC2 -->
+            <div class="border rounded-lg p-4 bg-slate-50">
+                <h3 class="font-bold text-blue-500 mb-2">Amazon EC2 (Elastic Compute Cloud)</h3>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    Layanan komputasi awan (<em>cloud computing</em>) berbasis <em>Infrastructure as a Service</em> (IaaS) dari AWS yang menyediakan kapasitas virtual yang sangat fleksibel dan dapat disesuaikan (<em>scalable</em>). Pengguna memiliki kontrol penuh atas sistem operasi, jaringan, dan keamanannya dengan sistem pembayaran sesuai pemakaian (<em>pay-as-you-go</em>).
+                </p>
+            </div>
+        </div>
+
+        <footer class="mt-8 pt-4 border-t text-center text-xs text-slate-400">
+            Modul Praktik AWS Cloud - Fase 1
+        </footer>
+    </main>
+</body>
+</html>
